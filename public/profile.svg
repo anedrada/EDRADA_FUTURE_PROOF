@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gradientBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#gradientBg)" stroke="#667eea" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="70" r="35" fill="#f5f5f5"/>
+  
+  <!-- Eyes -->
+  <circle cx="90" cy="65" r="4" fill="#1a1a2e"/>
+  <circle cx="110" cy="65" r="4" fill="#1a1a2e"/>
+  
+  <!-- Smile -->
+  <path d="M 90 75 Q 100 80 110 75" stroke="#1a1a2e" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M 75 100 Q 75 120 85 130 L 115 130 Q 125 120 125 100" fill="#f5f5f5"/>
+  
+  <!-- Arms -->
+  <rect x="50" y="105" width="25" height="15" rx="7" fill="#f5f5f5"/>
+  <rect x="125" y="105" width="25" height="15" rx="7" fill="#f5f5f5"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="30" cy="40" r="3" fill="#667eea" opacity="0.6"/>
+  <circle cx="170" cy="160" r="4" fill="#764ba2" opacity="0.6"/>
+  <circle cx="160" cy="40" r="2.5" fill="#f093fb" opacity="0.5"/>
+</svg>

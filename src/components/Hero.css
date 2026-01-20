@@ -40,19 +40,67 @@
   50% { transform: translateY(20px); }
 }
 
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3), 0 0 40px rgba(240, 147, 251, 0.5);
+  transition: all 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.4), 0 0 50px rgba(240, 147, 251, 0.7);
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes floatProfile {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+}
+
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 800px;
+  max-width: 500px;
+  text-align: left;
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   color: white;
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   font-weight: 800;
   animation: slideInDown 0.8s ease-out;
+  line-height: 1.2;
 }
 
 .hero-content p {
@@ -88,12 +136,38 @@
 .hero-buttons {
   display: flex;
   gap: 1rem;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   animation: slideInUp 0.8s ease-out 0.4s both;
 }
 
-.btn {
+@media (max-width: 768px) {
+  .hero-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+}
   padding: 12px 30px;
   font-size: 1rem;
   border-radius: 8px;
