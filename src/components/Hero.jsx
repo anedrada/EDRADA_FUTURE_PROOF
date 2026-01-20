@@ -7,7 +7,7 @@ function Hero() {
       <div className="container">
         <div className="hero-wrapper">
           <div className="hero-image">
-            <img src="/profile.svg" alt="Profile Picture" className="profile-pic" />
+            <img src="/profile.jpg" alt="Profile Picture" className="profile-pic" />
           </div>
           <div className="hero-content">
             <h1>Hi I'm An Edrada</h1>
