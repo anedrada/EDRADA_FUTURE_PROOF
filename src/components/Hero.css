@@ -54,6 +54,7 @@
   justify-content: center;
   align-items: center;
   animation: slideInLeft 0.8s ease-out;
+  order: 2;
 }
 
 .profile-pic {
@@ -91,6 +92,7 @@
   z-index: 2;
   max-width: 500px;
   text-align: left;
+  order: 1;
 }
 
 .hero-content h1 {
