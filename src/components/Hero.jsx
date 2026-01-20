@@ -6,7 +6,7 @@ function Hero() {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
-          <h1>Hi, I'm M. Edrada</h1>
+          <h1>Hi I'm An Edrada</h1>
           <p>A Computer Science student passionate about learning how to design and develop reliable software solutions that solve real-world problems.</p>
           <div className="hero-buttons">
             <button className="btn btn-primary">View My Work</button>

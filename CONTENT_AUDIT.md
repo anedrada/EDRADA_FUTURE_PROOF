@@ -8,7 +8,7 @@ Complete this worksheet to define your portfolio's core content before implement
 
 ### 1. THE HERO STATEMENT
 *In one sentence, who are you? This is your elevator pitch.*
-Hi I'm An M. Edrada
+Hi I'm An 
 
 **Your Role/Identity:**
 - [ ] Frontend Developer
