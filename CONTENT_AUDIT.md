@@ -55,7 +55,7 @@ This project shows you took on a challenge and expanded your skills. It's proof 
 #### PROJECT 3: "What You're Aspiring To" (Show Direction)
 This project shows where you want to grow. It demonstrates ambition and forward thinking.
 
-- **Project Name:** Smart Task Management App (Planned Project)
+- **Project Name:** Smart Task Management App 
 - **Description:** A productivity application that helps users organize tasks, set deadlines, and track progress efficiently.
 - **Tech Stack:** JavaScript, React (planned), Firebase (planned)
 - **Why This Matters to You:** This project aligns with my goal of building practical applications that solve real-life problems.

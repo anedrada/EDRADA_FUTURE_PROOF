@@ -5,7 +5,7 @@ function Skills() {
   const skills = {
     'Core Languages': ['Python', 'JavaScript', 'HTML', 'CSS'],
     'Tools & Platforms': ['Git/GitHub', 'SQLite', 'Tkinter', 'VS Code'],
-    'Currently Learning': ['Advanced JavaScript', 'Data Structures & Algorithms', 'React.js']
+    'Currently Learning': ['JavaScript', 'Data Structures & Algorithms', 'Git/GitHub']
   }
 
   return (
