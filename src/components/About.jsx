@@ -9,7 +9,7 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a Computer Science student. I am passionate about learning software development fundamentals, problem-solving, and building practical applications that improve user experience and efficiency.
+              I'm a Software Developer. I am passionate about learning how to design and build reliable software solutions that solve real-world problems.
             </p>
             <p>
               I'm currently strengthening my skills in JavaScript, Data Structures & Algorithms, and version control with Git.
