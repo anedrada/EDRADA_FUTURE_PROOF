@@ -20,7 +20,7 @@ function Header() {
     <header className="header">
       <div className="container">
         <div className="header-content">
-          <div className="logo">An Edrada</div>
+          <div className="logo">My Portfolio</div>
           <nav className={`nav ${isMenuOpen ? 'active' : ''}`}>
             <button onClick={() => scrollToSection('home')} className="nav-link">Home</button>
             <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
