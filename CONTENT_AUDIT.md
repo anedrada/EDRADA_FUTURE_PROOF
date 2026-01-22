@@ -23,7 +23,7 @@ Hi I'm An
 Software Developer
 
 **Your Hero Statement (Draft):**
-> I am a Computer Science student who is passionate about learning how to design and develop reliable software solutions that solve real-world problems.
+Software Developer
 
 **Example:** "I am a Full Stack Developer passionate about building scalable applications that solve real-world problems."
 
