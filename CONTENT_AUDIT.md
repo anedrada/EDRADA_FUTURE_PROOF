@@ -16,11 +16,11 @@ Hi I'm An
 - [ ] Backend Developer
 - [ ] Mobile Developer
 - [ ] DevOps Engineer
-- [ ] Other: Computer Science Student 
+- [ ] Other: Software Developer 
 
 **Your Passion/Specialty:**
 (What are you passionate about? Accessible UI? Scalable systems? Innovation? etc.)
-I am passionate about learning software development fundamentals, problem-solving, and building practical applications that improve user experience and efficiency.
+I am a Software Developer passionate about learning how to design and build reliable software solutions that solve real-world problems.
 
 **Your Hero Statement (Draft):**
 > I am a Computer Science student who is passionate about learning how to design and develop reliable software solutions that solve real-world problems.

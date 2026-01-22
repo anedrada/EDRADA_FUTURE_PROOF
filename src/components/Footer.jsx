@@ -8,7 +8,7 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <p>&copy; {currentYear} My Portfolio. All rights reserved.</p>
+          <p>&copy; {currentYear} An Edrada. All rights reserved.</p>
           <div className="footer-links">
             <a href="#home">Home</a>
             <a href="#about">About</a>

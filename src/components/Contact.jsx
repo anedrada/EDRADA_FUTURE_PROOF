@@ -38,7 +38,7 @@ function Contact() {
             <p>I'm always open to discussing new opportunities, learning experiences, and projects. Feel free to reach out!</p>
             <div className="contact-item">
               <strong>Email:</strong>
-              <p>edrada.m@example.com</p>
+              <p><a href="mailto:edrada.m@example.com">edrada.m@example.com</a></p>
             </div>
             <div className="contact-item">
               <strong>GitHub:</strong>
