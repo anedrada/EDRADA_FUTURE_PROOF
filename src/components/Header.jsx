@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import './Header.css'
+import { useTheme } from '../contexts/ThemeContext'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { isDark, toggleTheme } = useTheme()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -28,6 +30,9 @@ function Header() {
             <button onClick={() => scrollToSection('skills')} className="nav-link">Skills</button>
             <button onClick={() => scrollToSection('learning')} className="nav-link">Learning</button>
             <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+            <button className="theme-toggle" onClick={toggleTheme} title="Toggle dark mode">
+              {isDark ? '☀️' : '🌙'}
+            </button>
           </nav>
           <button className="menu-toggle" onClick={toggleMenu}>
             <span></span>

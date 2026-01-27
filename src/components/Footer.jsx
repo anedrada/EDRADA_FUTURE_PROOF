@@ -15,6 +15,14 @@ function Footer() {
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
           </div>
+          <div className="social-links">
+            <a href="https://github.com/anedrada" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <i className="fab fa-github"></i>
+            </a>
+            <a href="mailto:anedrada05@gmail.com" title="Email">
+              <i className="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
       </div>
     </footer>

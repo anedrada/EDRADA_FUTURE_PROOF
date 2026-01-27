@@ -4,6 +4,13 @@
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   position: relative;
+  transition: background 0.3s ease;
+}
+
+[data-theme="dark"] .app {
+  background: linear-gradient(135deg, #1a1a1f 0%, #1f1f26 25%, #252535 50%, #1f1f26 75%, #2a2a32 100%);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
 }
 
 @keyframes gradientShift {

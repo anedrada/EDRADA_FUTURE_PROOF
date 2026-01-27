@@ -10,6 +10,21 @@
   --text-dark: #1a1a2e;
   --text-light: #555555;
   --border-color: #e0e0e0;
+  --card-bg: #ffffff;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --primary-color: #8b9dff;
+  --secondary-color: #a78fd4;
+  --accent-color: #ff6b8a;
+  --light-bg: #1a1a1f;
+  --lighter-bg: #2a2a32;
+  --text-dark: #e8e8f0;
+  --text-light: #b0b0b8;
+  --border-color: #404048;
+  --card-bg: #242428;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -22,8 +37,9 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: var(--text-dark);
-  background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+  background: linear-gradient(to bottom, var(--light-bg), var(--lighter-bg));
   background-attachment: fixed;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 html {
